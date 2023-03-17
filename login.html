@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		form {
+			background-color: #fff;
+			border: 1px solid #ccc;
+			margin: 20px auto;
+			padding: 20px;
+			width: 400px;
+		}
+		label {
+			display: block;
+			font-size: 20px;
+			margin-bottom: 10px;
+		}
+		input[type="text"], input[type="password"] {
+			border: 1px solid #ccc;
+			font-size: 20px;
+			margin-bottom: 20px;
+			padding: 10px;
+			width: 100%;
+		}
+		input[type="submit"] {
+			background-color: #39f300;
+			border: none;
+			color: rgb(255, 255, 0);
+			font-size: 20px;
+			padding: 10px;
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<form action="date_selection_page.html" method="get">
+		<label for="username">Username</label>
+		<input type="text" id="username" name="username" required>
+		<label for="password">Password</label>
+		<input type="password" id="password" name="password" text="hidden" required>
+		<input type="submit" value="Login">
+
+	</form>
+</body>
+</html>
